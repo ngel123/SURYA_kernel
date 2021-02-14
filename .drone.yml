@@ -7,7 +7,6 @@ steps:
     commands: 
       - "curl https://raw.githubusercontent.com/ngel123/script/main/docker.sh | bash"
     environment: 
-      TELEGRAM_TOKEN: 
-        from_secret: BOT_API_KEY
+      
     image: fadlyas/kernel_dockerfile:latest
     name: Zh
