@@ -1,7 +1,7 @@
 clone: 
   depth: 1
 kind: pipeline
-name: Kuy
+name: Kuyu
 steps: 
   - 
     commands: 
