@@ -1,0 +1,11 @@
+clone: 
+  depth: 1
+kind: pipeline
+name: Kuy
+steps: 
+  - 
+    commands: 
+      - "curl https://raw.githubusercontent.com/ngel123/script/main/docker.sh | bash"
+    
+    image: fadlyas/kernel_dockerfile:latest
+    name: Zh
